@@ -12,6 +12,21 @@
             padding-top: 5em;
         }
     }
+
+    &__right {
+        @media print {
+            &::after {
+                content: 'https://cv.yuaner.tw';
+                height: 4rem;
+                // width: 100%;
+                display: block;
+                position: absolute;
+                bottom: 0.5rem;
+                right: 2rem;
+                color: darken($color-light, 80%);
+            }
+        }
+    }
 }
 
 // 出現可列印提示
