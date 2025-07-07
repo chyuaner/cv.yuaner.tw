@@ -1,0 +1,10 @@
+// override me
+.content {
+    @media print {
+        height: auto;
+
+        &__right {
+            position: fixed;
+        }
+    }
+}
