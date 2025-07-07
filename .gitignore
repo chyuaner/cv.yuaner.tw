@@ -3,6 +3,7 @@ imports.*
 dist/
 public/
 .DS_Store 
+resources/_gen/
 
 # OS
 .DS_Store
