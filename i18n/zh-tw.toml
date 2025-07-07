@@ -1,0 +1,23 @@
+[profile]
+other = "簡介"
+
+[experience]
+other = "主要經歷"
+
+[education]
+other = "學校與實習經歷"
+
+[references]
+other = "References"
+
+[skills]
+other = "技能"
+
+[languages]
+other = "Languages"
+
+[diplomas]
+other = "Diplomas"
+
+[interests]
+other = "興趣"
