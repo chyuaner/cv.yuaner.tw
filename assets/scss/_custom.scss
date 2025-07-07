@@ -13,3 +13,33 @@
         }
     }
 }
+
+body::before {
+  content: "本頁已針對列印最佳化，可直接列印。";
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #323232;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  animation: fadeout 4s ease forwards;
+}
+
+@keyframes fadeout {
+  0%   { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+  10%  { opacity: 0.9; transform: translateX(-50%) translateY(0); }
+  90%  { opacity: 0.9; }
+  100% { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+}
+
+@media print {
+  body::before {
+    display: none !important;
+  }
+}
