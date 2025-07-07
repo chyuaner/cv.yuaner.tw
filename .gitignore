@@ -1,0 +1,16 @@
+*.test
+imports.*
+dist/
+public/
+.DS_Store 
+
+# OS
+.DS_Store
+._*
+
+# IDE
+.idea/
+.vscode/
+.settings/
+*.subliime-workspace
+*.sublime-project
