@@ -3,12 +3,12 @@ BasicInfo:
   LastName: Chiu
   Photo: https://gravatar.com/avatar/39d6ecc6926e02f7241c8d9225f9eb5a6491a6f13cfaf6ef261b4e44dbd6be55?s=300
   Contacts:
+    - Icon: fas fa-globe
+      Info: <a class="contact__link" href="https://yuaner.tw" target="_blank">yuaner.tw</a>
     - Icon: fas fa-phone
       Info: +886 930 507 655
     - Icon: fas fa-envelope
       Info: chyuaner@gmail.com
-    - Icon: fas fa-globe
-      Info: <a class="contact__link" href="https://yuaner.tw" target="_blank">yuaner.tw</a>
 
 Profile: 目前主是為後端工程師，資工系研究所畢業，喜歡參與開源社群相關活動。常用開發語言為PHP，曾經也涉獵前端頁面與Android App開發。額外興趣包含ACG同人文化、現代鐵道研究、音樂遊戲。
 
