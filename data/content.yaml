@@ -48,6 +48,25 @@ Experience:
           - AWS實務經驗，含EC2、S3、RDS(Aurora MySQL)、Router 53、IAM
           - 公司內部伺服器主機環境建置(VMware ESXi, HPE iLO, RouterOS)
         Badges: ['PHP', 'Laravel', 'MySQL', 'ESXi', 'AWS']
+  - Employer: 科技魅癮 科技部數位季刊
+    Positions:
+      - Title: 接案 - 後端部署建置
+        Date: 2021/1 - 2022/2
+        Details:
+          - 配合前端工程師建置前端與後端兩套專案的整合
+          - 在Debian 10環境內，架設Nginx、MariaDB、PM2(Node.JS)等必要服務。
+          - 設置Let's Encrypt Certbot SSL憑證自動續約，提供https瀏覽服務。
+        Badges: ['Debian','Nginx','Wordpress']
+  - Employer: 繆思夏工作室
+    Positions:
+      - Title: 接案 - 作業系統客製化
+        Date: 2018/4 - 2019/12
+        Details:
+          - 協力開發搭載特化過的Ubuntu Linux之專業音樂創作筆電，進行軟硬體系統整合
+          - 打包客製軟體套件，並建置售後長期軟體更新服務機制
+          - 系統OEM模式自動客製設定，與開機動畫程式編寫
+          - 還原機制實做
+        Badges: ['Ubuntu','PPA','Clonezilla']
 
 Education:
   - Course: 資訊工程學系 研究所
