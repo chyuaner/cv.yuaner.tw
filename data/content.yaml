@@ -1,87 +1,94 @@
 BasicInfo:
-  FirstName: Inês
-  LastName: Almeida
-  Photo: img/avatar.jpg
+  FirstName: Yuan
+  LastName: Chiu
+  Photo: https://gravatar.com/avatar/39d6ecc6926e02f7241c8d9225f9eb5a6491a6f13cfaf6ef261b4e44dbd6be55?s=300
   Contacts:
     - Icon: fas fa-phone
-      Info: +44 123 456 789
+      Info: +886 930 507 655
     - Icon: fas fa-envelope
-      Info: contact@ines-almeida.com
+      Info: chyuaner@gmail.com
     - Icon: fas fa-globe
-      Info: <a class="contact__link" href="https://ines-almeida.com" target="_blank">ines-almeida.com</a>
-    - Icon: fas fa-map-marker-alt
-      Info: Portugal
+      Info: <a class="contact__link" href="https://yuaner.tw" target="_blank">yuaner.tw</a>
 
-Profile: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Profile: 目前主是為後端工程師，資工系研究所畢業，喜歡參與開源社群相關活動。常用開發語言為PHP，曾經也涉獵前端頁面與Android App開發。額外興趣包含ACG同人文化、現代鐵道研究、音樂遊戲。
 
 Experience:
-  - Employer: Super Cool Company
-    Place: Oxford, UK
+  - Employer: 睿點行動股份有限公司
+    # Place: Oxford, UK
     Positions:
-      - Title: Software Engineer
-        Date: Jan 2020 - Present
+      - Title: 後端工程師
+        Date: 2022/11 - 2023/1
         Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'Django', 'OOP', 'Javascript', 'HTML', 'CSS', 'Agile']
-      - Title: Software Tester
-        Date: Mar 2019 - Jan 2020
-        Details:
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'BDD', 'Selenium', 'OOP', 'Agile']
-  - Employer: Another super cool company
-    Place: Lisbon, PT
+          - 承接invos發票存摺後端系統開發，包含PHP與Python相關數個專案
+          - 使用Proxyman, Charles相關工具，追蹤Android APP程式在操作過程中，連線到後端的呼叫過程，並整理到Paw(RapidAPI), Postman。
+          - 盤點數個專案的資料流向，與追蹤含有34張表格的MySQL與Redis，並繪製出資料流向圖
+          - 與財政部伺服器串接，並與本平台帳號與財政部載具綁定整合。
+          - 財政部網頁爬蟲調整，更換圖形辨識模組，與優化成功率流程調整，以及取得公司名冊提供的zip與csv，並寫入到對應的資料庫，與發票整合。
+          - 協助盤點從財政部伺服器取得到的大量發票同步，進入到散落的程式專案與資料庫的過程
+        Badges: ['PHP', 'Python', 'MySQL', 'GCP']
+  - Employer: JGB Smart Property
+    # Place: Lisbon, PT
     Positions:
-      - Title: Flow Cytometry Resource Specialist
+      - Title: 後端工程師
         Date: Jan 2018 - Mar 2019
         Details:
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
-  - Employer: Institute of Neural Engineering
-    Place: Graz, AT
-    Class: "experience__extra_padding"
-    Positions:
-      - Title: Master's Thesis Research Intern
-        Date: Oct 2016 - Jun 2017
-        Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-        Badges: ['Python', 'MATLAB', 'Data Processing', 'Paradigm Design']
+          - 以PHP語言，採用Laravel框架進行開發
+          - 資料庫採用 AWS Aurora MySQL
+          - 租房的雙方電子簽名流程、合約當前狀態，與點交、點退等整體的流程功能施做
+          - 串接ThinkCloud電子簽名廠商平台
+          - 長租租期帳單計算與自動產出功能
+          - 與總收支、統計圖表等統計功能（配合前端採用c3.js框架）
+          - 實現多國語言與多幣別處理
+          - 帳號團隊群組與權限功能邏輯設計
+          - 與第三方IoT廠商Skywatch與Miezo，串接智慧電錶、智慧門鎖
+          - 使用Tcpdf套件產出PDF電子合約，與PhpSpreadsheet套件Excel報表，供使用者下載
+          - 與Redis配合優化以加速效能
+          - 使用Laravel Artisan Console框架進行內部工具開發
+          - 採用Docker的Laradock框架進行開發與上線部屬
+          - AWS實務經驗，含EC2、S3、RDS(Aurora MySQL)、Router 53、IAM
+          - 公司內部伺服器主機環境建置(VMware ESXi, HPE iLO, RouterOS)
+        Badges: ['PHP', 'Laravel', 'MySQL', 'ESXi', 'AWS']
 
 Education:
-  - Course: BSc & MSc in Biomedical Engineering and Biophysics
-    Place: University of Lisbon
-    Date: Sep 2012 - Nov 2017
-    Details: Specialised in data analysis
+  - Course: 資訊工程學系 研究所
+    Place: 中華大學
+    Date: 2014 - 2018
+    # Details: Specialised in data analysis
     Positions:
-      - Title: Software Engineer
-        Date: Jan 2020 - Present
+      - Title: 無所不在學習導引機制之研製
+        # Date: Jan 2020 - Present
         Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'Django', 'OOP', 'Javascript', 'HTML', 'CSS', 'Agile']
-      - Title: Software Tester
-        Date: Mar 2019 - Jan 2020
+          - 導覽系統的後端開發，含最佳學習路徑計算與規劃
+          - 數位教材，以Foundation 5 Framework開發前端頁面
+          - 導覽系統客戶端以原生Java語言撰寫Android App
+          - 自動化簡易部屬更版腳本
+        Badges: ['PHP','MySQL','HTML','CSS','Foundation','Android(Java)']
+      - Title: 科學博物館 導引推薦
         Details:
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'BDD', 'Selenium', 'OOP', 'Agile']
+          - 以無所不在學習導引機制為基礎的後端簡化版
+          - 後端導引演算法實作並設計http API介面供合作廠商介接
+        Badges: ['PHP','MySQL']
+      - Title: 升大學職涯型落點分析
+        Details:
+          - UI/UX流程設計規劃
+          - 以Foundation 5 Framework開發前端頁面
+          - 前端頁面實做，並以Ajax與ASP.net MVC後端專案串接
+          - 以c3.js套件施做互動式統計圖表功能
+        Badges: ['HTML','CSS','JavaScript','jQuery','Grunt']
+  - Course: 京元電子竹南廠實習
+    Date: 2011
+    # Details: Specialised in data analysis
+    Details:
+        - 協助公司員工組裝電腦主機
+        - 重灌作業系統與相關軟體
+        - 協助內部軟體開發的人工測試
+  - Course: 臺北馬偕醫院
+    Date: 不定期志工
+    # Details: Specialised in data analysis
+    Details:
+        - 擔任腸病毒衛教活動體驗營的小隊長
+        - 協助病歷課、社會服務室整理資料
+        - 腸造口護理教學影片的剪輯
 
 Skills:
   - Family: Programming
