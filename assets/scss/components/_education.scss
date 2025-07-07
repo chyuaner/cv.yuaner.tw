@@ -1,4 +1,13 @@
 .education {
+    &__date {
+        float: right;
+        margin-top: -1.7em;
+
+        color: $color-secondary;
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+
     &__item {
         @include avoid-break;
     }
