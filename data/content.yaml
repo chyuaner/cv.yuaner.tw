@@ -113,36 +113,57 @@ Education:
 Skills:
   - Family: Programming
     Items:
-      - Python
-      - HTML (including Jinja)
+      - PHP
+      - MySQL
+      - Java
+      - HTML
       - Javascript
       - CSS
-      - SASS
-      - SQL
-      - C#
-      - Bash
-      - MATLAB
+      - SCSS
+      - Python
   - Family: Frameworks
     Items:
-      - Django
-      - Flask
+      - Laravel
+      - Astro
+      - Hexo
       - Hugo
-      - React
+  - Family: CSS Frameworks
+    Items:
+      - TailwindCSS
+      - Bootstrap
+      - Foundation
   - Family: Developer Tools
     Items:
       - Git
       - Docker
-      - Jenkins
-      - AWS
-  - Family: Misc
+      - Grunt
+      - Vite
+      - DBeaver
+      - Charles
+      - Proxyman
+      - Paw(RapidAPI)
+      - Proxyman
+  - Family: Hosted Platform
     Items:
-      - Adobe Tools
-      - LaTeX
+      - Proxmox VE
+      - VMware ESXi
+      - AWS
+      - Oracle Cloud
+      - Cloudflare
+  - Family: Linux
+    Items:
+      - Manjaro
+      - Arch Linux
+      - Debian
+      - Ubuntu
+      - Proxmox VE
+      - Amazon Linux
+  # - Family: Misc
+  #   Items:
+  #     - Adobe Tools
+  #     - LaTeX
 
-Interests:
-  - Bouldering
-  - Cooking
-  - Windsurfing
-  - Bossa Nova
-  - Design
-  - Languages
+# Interests:
+#   - ACG
+#   - 鐵道
+#   - 環島
