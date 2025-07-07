@@ -5,8 +5,12 @@ BasicInfo:
   Contacts:
     - Icon: fas fa-globe
       Info: <a class="contact__link" href="https://yuaner.tw" target="_blank">yuaner.tw</a>
+    - Icon: fab fa-github
+      Info: <a class="contact__link" href="https://github.com/chyuaner" target="_blank">chyuaner</a>
     - Icon: fas fa-phone
-      Info: +886 930 507 655
+      Info: <a class="contact__link" href="tel:+886-930507655">+886 930 507 655</a>
+    - Icon: fab fa-telegram
+      Info: <a class="contact__link" href="https://t.me/chyuaner" target="_blank">chyuaner</a>
     - Icon: fas fa-envelope
       Info: chyuaner@gmail.com
 
