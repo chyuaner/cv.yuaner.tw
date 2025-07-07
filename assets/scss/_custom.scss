@@ -6,5 +6,10 @@
         &__right {
             position: fixed;
         }
+
+        .page-break {
+            page-break-before: always;
+            // padding-top: 2em;
+        }
     }
 }

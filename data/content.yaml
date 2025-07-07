@@ -49,6 +49,7 @@ Experience:
           - 公司內部伺服器主機環境建置(VMware ESXi, HPE iLO, RouterOS)
         Badges: ['PHP', 'Laravel', 'MySQL', 'ESXi', 'AWS']
   - Employer: 科技魅癮 科技部數位季刊
+    Class: page-break
     Positions:
       - Title: 接案 - 後端部署建置
         Date: 2021/1 - 2022/2
