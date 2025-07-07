@@ -1,0 +1,27 @@
+<div id="actions" class="sideSection">
+    <div class="sideSection__heading">
+        <h2 class="sideSection__title">{{ i18n "actions" }}</h2>
+    </div>
+    <div class="sideSection__content">
+        <ul class="">
+            <li class="contact__item">
+                <i class="fas fa-print"></i><span><a href="#" class="contact__link" onclick="window.print()">列印本頁</a></span>
+            </li>
+            <li class="contact__item">
+                <i class="fas fa-plus"></i><span><a href="#" class="contact__link" onclick="document.body.style.zoom = '150%'">放大</a></span>
+            </li>
+            <li class="contact__item">
+                <i class="fas fa-compress"></i><span><a href="#" class="contact__link" onclick="document.body.style.zoom = '100%'">重設</a></span>
+            </li>
+            <li class="contact__item">
+                <i class="fas fa-minus"></i><span><a href="#" class="contact__link" onclick="document.body.style.zoom = '80%'">縮小</a></span>
+            </li>
+        </ul>
+    </div>
+</div>
+<script>
+  function zoomPage(scale) {
+    document.body.style.transform = `scale(${scale})`;
+    document.body.style.transformOrigin = "top left"; // 設定縮放基準點
+  }
+</script>

@@ -42,3 +42,12 @@ body::before {
     display: none !important;
   }
 }
+
+// 動作區在列印時不要顯示
+@media print {
+  #actions {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+  }
+}
