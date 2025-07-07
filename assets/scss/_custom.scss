@@ -1,4 +1,4 @@
-// override me
+// 讓本頁支援多頁列印
 .content {
     @media print {
         height: auto;
@@ -14,6 +14,7 @@
     }
 }
 
+// 出現可列印提示
 body::before {
   content: "本網頁可直接列印，已針對列印最佳化處理了。";
   position: fixed;
@@ -30,14 +31,12 @@ body::before {
   pointer-events: none;
   animation: fadeout 4s ease forwards;
 }
-
 @keyframes fadeout {
   0%   { opacity: 0; transform: translateX(-50%) translateY(-10px); }
   10%  { opacity: 0.9; transform: translateX(-50%) translateY(0); }
   90%  { opacity: 0.9; }
   100% { opacity: 0; transform: translateX(-50%) translateY(-10px); }
 }
-
 @media print {
   body::before {
     display: none !important;
