@@ -60,11 +60,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-      - name: Upload artifact for PDF export
-        uses: actions/upload-artifact@v4
-        with:
-          name: public-site
-          path: ./public
+
       - name: Trigger deploy workflow
         if: ${{ github.event_name == 'workflow_dispatch' }}
         uses: peter-evans/repository-dispatch@v3
