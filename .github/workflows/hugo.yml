@@ -60,7 +60,10 @@ jobs:
       # Start static server and generate PDF
       - name: Install Puppeteer, serve, wait-on
         run: npm install puppeteer serve wait-on
-
+      - name: Install Chinese fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
       - name: Start static server
         run: |
           npx serve public -l 5000 &
@@ -68,7 +71,7 @@ jobs:
 
       - name: Export PDF
         run: node scripts/export-pdf.js
-        
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
