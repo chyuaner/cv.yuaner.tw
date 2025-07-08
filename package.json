@@ -6,9 +6,6 @@
     "build": "hugo --minify",
     "server": "hugo server",
     "dev": "hugo server -D",
-    "serve": "serve public -l 5000",
-    "export-pdf": "node scripts/export-cv.js",
-    "build-and-export": "hugo && npm run serve & sleep 5 && npm run export-pdf",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,9 +19,5 @@
   "bugs": {
     "url": "https://github.com/chyuaner/cv.yuaner.tw/issues"
   },
-  "homepage": "https://cv.yuaner.tw",
-  "dependencies": {
-    "puppeteer": "^24.12.0",
-    "serve": "^14.2.4"
-  }
+  "homepage": "https://cv.yuaner.tw"
 }
