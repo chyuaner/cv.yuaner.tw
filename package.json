@@ -1,0 +1,23 @@
+{
+  "name": "cv.yuaner.tw",
+  "version": "1.0.0",
+  "description": "Yuan Chiu的履歷頁面",
+  "scripts": {
+    "build": "hugo --minify",
+    "server": "hugo server",
+    "dev": "hugo server -D",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chyuaner/cv.yuaner.tw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chyuaner/cv.yuaner.tw/issues"
+  },
+  "homepage": "https://cv.yuaner.tw"
+}
