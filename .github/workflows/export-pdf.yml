@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download public artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
-          name: public-site
-          path: ./public
+            name: public-site
+            path: ./public
 
       - uses: actions/checkout@v4
 
@@ -31,7 +31,7 @@ jobs:
         run: node scripts/export-pdf.js
 
       - name: Upload updated artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
-          name: public-site-with-pdf
-          path: ./public
+            name: public-site-with-pdf
+            path: ./public
