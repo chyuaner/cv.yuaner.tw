@@ -56,6 +56,19 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      # Start static server and generate PDF
+      - name: Install Puppeteer, serve, wait-on
+        run: npm install puppeteer serve wait-on
+
+      - name: Start static server
+        run: |
+          npx serve public -l 5000 &
+          npx wait-on http://localhost:5000
+
+      - name: Export PDF
+        run: node scripts/export-pdf.js
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
