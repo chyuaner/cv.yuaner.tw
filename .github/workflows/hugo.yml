@@ -63,7 +63,7 @@ jobs:
 
       - name: Trigger deploy directly
         if: ${{ github.event_name == 'workflow_dispatch' }}
-        uses: peter-evans/workflow-dispatch@v1
+        uses: peter-evans/workflow-dispatch@v1.0.0
         with:
           workflow: deploy.yml
           ref: master
